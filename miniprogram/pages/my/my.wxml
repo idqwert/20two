@@ -1,0 +1,6 @@
+<!-- <view bindtap="toCart" animation="{{animationCart2}}" class="car"  >
+    <view animation="{{animationCart1}}" class="one">
+
+    </view>
+</view>
+<view id='cart'></view> -->

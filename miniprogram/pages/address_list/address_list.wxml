@@ -1,0 +1,32 @@
+<view class="address_list">
+  <view class="title">
+    <view class="tcon">地址选择</view>
+    <view class="back"> 返回 </view>
+    <view class="guan" bindtap="isdel" wx:if="{{isdel==false}}"> 管理 </view>
+    <view class="guan" bindtap="isdel" wx:if="{{isdel==true}}"> 删除 </view>
+  </view>
+
+  <view class="listbox">
+    <view class="listitem" wx:for="{{adbox}}" wx:key="index">
+      <view class="top">
+        <view class="name">{{item.address.name}}</view>
+        <view class="phone">{{item.address.phone}}</view>
+        <view class="mo" wx:if="{{item.ismo ==true}}">默认</view>
+      </view>
+      <view class="change" bindtap="changead" data-index="{{item.id}}" wx:if="{{isdel==false}}">
+        <image src="../../images/bianji.png"></image>
+      </view>
+      <view class="change" bindtap="del" data-index="{{item.id}}"  wx:if="{{isdel==true}}">
+        <image src="../../images/del.png"></image>
+      </view>
+      <view class="but">{{item.address.city}}  {{item.address.address}}</view>
+      
+    </view>
+  </view>
+
+  <view class="add-address">
+    <navigator url="../address/address">
+      <view class="btn">新增地址</view>
+    </navigator>
+  </view>
+</view>

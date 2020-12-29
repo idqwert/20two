@@ -1,0 +1,15 @@
+<view class="product clearfix">
+  <view class="fl pro-img">
+    <image class="auto-img pro-img-box" mode="widthFix" src="{{productData.url}}"></image>
+  </view>
+  <view class="fl pro-info">
+    <view class="pro-name two-text">{{productData.title}}</view>
+    <view>
+      <view class="month-count">已售{{productData.sell}}</view>
+    </view>
+    <view class="clearfix price-box">
+      <view class="fl pro-price">￥{{productData.price}}</view>
+      <view class="fr pro-rule" catchtap="addshopcart" data-hidden="0" data-top="0">点餐</view>
+    </view>
+  </view>
+</view>

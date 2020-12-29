@@ -1,0 +1,76 @@
+<view class="list-nav">
+  <view class="nav-item {{listnavindex == index ? 'active' : ''}}" wx:for="{{navList}}"  wx:key="index" data-index="{{index}}" bindtap="toggleMenuIndex">{{item}}</view>
+</view>
+
+<view class="itembox" wx:if="{{listnavindex==0}}">
+  <view class="lsitem" wx:for="{{listall}}" wx:key="index">
+
+    <view class="title">{{item.shoplist[0].title}} 等{{item.shoplist.length}}件</view>
+
+    <view class="showl">
+      <view class="listitem" wx:for="{{item.shoplist}}" wx:key="index">
+        <view class="pic">
+          <image src="{{item.url}}"></image>
+        </view>
+        <view class="name">{{item.title}}</view>
+        <view class="count">× {{item.count}}</view>
+        <view class="price">￥{{item.price}}</view>
+      </view>
+    </view>
+
+    <view class="bot">
+      <view class="aprice">总价 ￥ {{item.price}}</view>
+      <view class="pay">付款</view>
+    </view>
+
+  </view>
+</view>
+
+<view class="itembox" wx:if="{{listnavindex==1}}">
+  <view class="lsitem" wx:for="{{listnopay}}" wx:key="index">
+
+    <view class="title">{{item.shoplist[0].title}} 等{{item.shoplist.length}}件</view>
+
+    <view class="showl">
+      <view class="listitem" wx:for="{{item.shoplist}}" wx:key="index">
+        <view class="pic">
+          <image src="{{item.url}}"></image>
+        </view>
+        <view class="name">{{item.title}}</view>
+        <view class="count">× {{item.count}}</view>
+        <view class="price">￥{{item.price}}</view>
+      </view>
+    </view>
+
+    <view class="bot">
+      <view class="aprice">总价 ￥ {{item.price}}</view>
+      <view class="pay">付款</view>
+    </view>
+
+  </view>
+</view>
+
+<view class="itembox" wx:if="{{listnavindex==2}}">
+  <view class="lsitem" wx:for="{{listfinish}}" wx:key="index">
+
+    <view class="title">{{item.shoplist[0].title}} 等{{item.shoplist.length}}件</view>
+
+    <view class="showl">
+      <view class="listitem" wx:for="{{item.shoplist}}" wx:key="index">
+        <view class="pic">
+          <image src="{{item.url}}"></image>
+        </view>
+        <view class="name">{{item.title}}</view>
+        <view class="count">× {{item.count}}</view>
+        <view class="price">￥{{item.price}}</view>
+      </view>
+    </view>
+
+    <view class="bot">
+      <view class="aprice">总价 ￥ {{item.price}}</view>
+      <view class="pay">付款</view>
+    </view>
+
+  </view>
+</view>
+

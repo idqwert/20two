@@ -1,0 +1,65 @@
+<view class="first">
+  <view class="title-pic">
+    <image src="../../images/title1.jpg"></image>
+  </view>
+  <view class="userinfo">
+    <view class="usermsg">
+      <view class="userpic"></view>
+      <view class="username">Hi,xxxxx</view>
+      <view class="yourself">个人中心></view>
+    </view>
+    <view class="userf">
+      <view class="integral">积分 0</view>
+      <view class="balance">余额 0 </view>
+      <view class="coupon"> 优惠券 0</view>
+    </view>
+  </view>
+
+  <view class="menulist">
+    <navigator url="../menu/menu">
+      <view class="navpic">
+        <view>
+          <image src="../../images/nav1.png"></image>
+        </view>
+        去点餐
+      </view>
+    </navigator>
+
+    <view class="navpic">
+      <view>
+        <image src="../../images/nav2.png"></image>
+      </view>
+      <view class="navtext">点外卖(功能开发中)</view>
+    </view>
+
+    <view class="navpic">
+      <view>
+        <image src="../../images/nav3.png"></image>
+      </view>
+      <view class="navtext">看商城(功能开发中)</view>
+    </view>
+  </view>
+  
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{pictures}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" ></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+  <view class="msg">
+    <view class="msgtext">品牌故事</view>
+    <view class="msgpic">
+      <image src="../../images/msgpic.jpg"></image>
+    </view>
+  </view>
+  
+
+  
+
+
+</view>

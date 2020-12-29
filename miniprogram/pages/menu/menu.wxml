@@ -1,0 +1,80 @@
+<view class="menu">
+  <view class="menu-nav">
+
+      <view class="person" bindtap="tohome">
+        <image src="../../images/person.png"></image>
+      </view>
+
+    
+    <view class="nav-item {{menulistindex == index ? 'active' : ''}}" wx:for="{{menuList}}"  wx:key="index" data-index="{{index}}" bindtap="toggleMenuIndex">{{item}}</view>
+
+    <view class="search">
+      <image src="../../images/search.png"></image>
+    </view>
+  </view>
+
+  <!-- 精选界面 -->
+  <view wx:if="{{menulistindex==0}}" class="one" >
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicatorDots="false"
+        autoplay="true" interval="4000" duration="1000">
+        <block wx:for="{{pictures}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" ></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <view class="tui">精品推荐</view>
+    <view class="recommend_menu" wx:for="{{list}}"wx:key="index">
+      <view class="variety-item">
+        <view class="item-pic">
+          <image src="{{item.url}}"></image>
+          <view class="item-sell">已售 {{item.sell}}</view>
+        </view>
+        <view class="item-title">{{item.title}}</view>
+        <view class="item-price">¥ {{item.price}}</view>
+        <view class="add"  catchtap="addrecommend" data-id="{{item._id}}">
+          点餐
+          <view class="movecss" ></view>
+        </view>
+      </view>
+    </view>
+
+    <view class="kong">
+      <image src="../../images/bottom1.png"></image>
+    </view>
+
+    
+  </view>
+
+  <!-- 全菜单界面 -->
+  <view  wx:else class="two">
+    <movable-area class="box">
+      <movable-view class="move" x="{{x}}" y="{{y}}  "direction="all"  bindtap="tap" >
+        <view class="btn ">菜品分类</view>
+        <view class="allmenulist">
+          <view class="aside-item {{activeMenuIndex == index ? 'activem' : ''}}" wx:for="{{allmenulist}}"  wx:key="index" data-index="{{index}}" data-type="{{item.type}}"  bindtap="toggleMenuList">{{item.title}}</view>
+        </view>
+      </movable-view>
+    </movable-area>
+    <view class="right-box">
+      <product wx:for="{{products}}" wx:key="index" product-data="{{item}}" bindcurrentIndexEvent="modifyCurrentIndex" bindaddShopcart="modifyShopcartCount"data-index="{{index}}" data-item="{{item}}" ></product>
+    </view>
+    
+  </view>
+  
+  
+  <view class="joincar">
+    <view class="he">合计</view>
+    <view class="num">¥ {{price}}</view>
+    <navigator url="../car/car">
+      <view class="car" id='cart'>
+        购物车
+        <view  class="con " wx:if="{  {shopcartCount > 0}}">{{shopcartCount}}</view>
+      </view>
+    </navigator>
+    
+  </view>
+</view>

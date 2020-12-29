@@ -1,0 +1,125 @@
+.list-nav{
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+}
+.nav-item:nth-child(1){
+  position: absolute;
+  width: 120rpx;
+  height: 76rpx;
+  text-align: center;
+  line-height: 76rpx;
+  left:125rpx;
+}
+.nav-item:nth-child(2){
+  position: absolute;
+  width: 120rpx;
+  height: 76rpx;
+  text-align: center;
+  line-height: 76rpx;
+  left:325rpx;
+}
+.nav-item:nth-child(3){
+  position: absolute;
+  width: 120rpx;
+  height: 76rpx;
+  text-align: center;
+  line-height: 76rpx;
+  left:525rpx;
+}
+.active{
+  color:#c16d78;
+  border-bottom: 4rpx solid #c16d78;
+}
+.itembox{
+  width: 100%;
+  height: auto;
+  min-height: 607rpx;
+  margin-top: 80rpx;
+}
+.lsitem{
+  width: 90%;
+  height: auto;
+  min-height: 300rpx;
+  background-color: white;
+  border-radius: 60rpx;
+  margin: 20rpx auto;
+}
+.title{
+  width: 90%;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin: 0 auto;
+  font-size: 50rpx;
+}
+.showl{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.listitem{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 10rpx;
+}
+.pic{
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  background-color: tomato;
+}
+.pic image{
+  width: 100%;
+  height: 100%;
+}
+.name{
+  width: 300rpx;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+  font-size: 38rpx;
+  margin-left: 20rpx;
+}
+.price{
+  width: 100rpx;
+  height: 100rpx;
+  float: right;
+  line-height: 100rpx;
+  font-size: 34rpx;
+  color: #c16d78;
+}
+.count{
+  width: 60rpx;
+  height: 100rpx;
+  float: right;
+  line-height: 100rpx;
+  font-size: 34rpx;
+}
+.bot{
+  width: 100%;
+  height: 60rpx;
+  padding-bottom: 20rpx;
+}
+.aprice{
+  width: 40%;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #c16d78;
+  float: left;
+  font-size: 40rpx;
+  margin-left: 32rpx;
+}
+.pay{
+  width: 20%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 60rpx;
+  color: white;
+  background-color: #c16d78;
+  float: right;
+  font-size: 36rpx;
+  margin-right: 32rpx;
+}

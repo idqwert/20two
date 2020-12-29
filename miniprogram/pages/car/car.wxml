@@ -1,0 +1,73 @@
+<view class="car">
+  <view class="car-nav">
+    <navigator url="../menu/menu">
+      <view class="back">  </view>
+    </navigator>
+    <view class="car-clear" bindtap="del" wx:if="{{isshow==false}}">清除</view>
+    <view class="car-clear" bindtap="del" wx:if="{{isshow==true}}">完成</view>
+    <view class="car-count">购物车（{{num}}）</view>
+  </view>
+
+  <view class="user">
+    <view class="user-pic"></view>
+    <view class="user-name">xxxx</view>
+    <view class="tixin">你的订单如下:</view>
+  </view>
+
+  <view class="item-box">
+
+    <view wx:if="{{isshow==true}}" class="itemone" wx:for="{{shopbox}}" wx:key="index">
+      <view class="item-del" data-id="{{item.id}}" data-count="{{item.count}}" data-price="{{item.price}}" bindtap="delitem">
+        <icon class="icon-small" type="cancel" size="30"></icon>
+      </view>
+      <view class="item-pic">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="item-msg">
+        <view class="item-name">
+          {{item.title}}
+        </view>
+        <view class="item-num">
+          <view class="item-price">{{item.price}}/份</view>
+          <view class="item-add">
+            <view class="add" bindtap="add" data-index="{{index}}">+</view>
+            <view class="count">{{item.count}}</view>
+            <view class="reduce"bindtap="reduce" data-index="{{index}}">-</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{isshow==false}}" class="itemtwo" wx:for="{{shopbox}}" wx:key="index">
+      <view class="item-pic">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="item-msg">
+        <view class="item-name">
+          {{item.title}}
+        </view>
+        <view class="item-num">
+          <view class="item-price">{{item.price}}/份</view>
+          <view class="item-add">
+            <view class="add" bindtap="add" data-index="{{index}}">+</view>
+            <view class="count">{{item.count}}</view>
+            <view class="reduce"bindtap="reduce" data-index="{{index}}">-</view>
+          </view>
+        </view>
+      </view>
+      
+    </view>
+    
+  <view class="tian"></view>
+
+  <view class="bom-nav">
+    <view class="he">合计</view>
+    <view class="num">¥ {{price}}</view>
+    <view class="tolist" bindtap="addtolist">查看本次订单</view>
+    <navigator url="../menu/menu">
+      <view class="contin">继续点菜</view>
+    </navigator>
+    
+  </view>
+</view>
+</view>

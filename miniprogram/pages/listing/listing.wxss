@@ -1,0 +1,169 @@
+.listing{
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+.nav{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: white;
+  text-align: center;
+  font-size: 36rpx;
+}
+.address{
+  width: 90%;
+  height: 200rpx;
+  background-color: #fff;
+  border-radius: 40rpx;
+  margin: 40rpx auto;
+}
+.icono{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 30rpx;
+  margin-top: 70rpx;
+  float: left;
+}
+.icono image{
+  width: 100%;
+  height: 100%;
+}
+.top{
+  width: 450rpx;
+  height: 100rpx;
+  float: left;
+
+  margin-left: 20rpx;
+}
+.name{
+  width: 20%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 38rpx;
+  float: left;
+  font-weight: bolder;
+}
+.phone{
+  width: 50%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  float: left;
+  color:#595959;
+}
+.mo{
+  width: 100rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin: 30rpx auto;
+  color: white;
+  background-color: #c16d78;
+  border-radius: 60rpx;
+  float: left;
+}
+.bot{
+  width: 450rpx;
+  height: 100rpx;
+  float: left;
+
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  color:#595959;
+}
+.icont{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 30rpx;
+  margin-top: 70rpx;
+  float: right;
+}
+.icont image{
+  width: 100%;
+  height: 100%;
+}
+.shopbox{
+  width: 90%;
+  height: auto;
+  min-height: 400rpx;
+  border-radius: 40rpx;
+  background-color: white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.item{
+  width: 90%;
+  height: 160rpx;
+  margin: 20rpx auto;
+  /* background-color: #f2f2f2; */
+  border-radius: 40rpx;
+}
+
+.pic{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 10rpx 20rpx 10rpx 40rpx;
+  background-color: saddlebrown;
+  float: left;
+}
+.pic image{
+  width: 100%;
+  height: 100%;
+}
+.title{
+  width: 300rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 46rpx;
+  font-weight: bolder;
+  float: left;
+  margin-left: 30rpx;
+}
+.iprice{
+  width: 260rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  color:#c16d78;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+.count{
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 36rpx;
+  float: left;
+  margin-top: 40rpx;
+}
+.bnav{
+  width: 100%;
+  height: 120rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+.price{
+  width: 300rpx;
+  height: 120rpx;
+  float: left;
+  line-height: 120rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bolder;
+}
+.color{
+  color: #c16d78;
+}
+.btn{
+  width: 220rpx;
+  height: 120rpx;
+  background-color: #c16d78;
+  float: right;
+  line-height: 120rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+}

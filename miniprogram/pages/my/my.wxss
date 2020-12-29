@@ -1,0 +1,24 @@
+.car{
+  position:relative;
+  top:20px;
+  width: 200rpx;
+  height: 200rpx;
+  background-color:grey;
+}
+.one{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  top:20rpx;
+  right:2rpx;
+  background-color: #c16d78;
+}
+#cart{
+  position:fixed;
+  bottom: 0;
+  right:0;
+  width: 200rpx;
+  height: 200rpx;
+  background-color:grey;
+}

@@ -1,0 +1,122 @@
+.title{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  position: relative;
+}
+.tcon{
+  width: 60%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 20%;
+  font-size: 36rpx;
+}
+.back{
+  width: 20%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #c16d78;
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+.guan{
+  width: 20%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #c16d78;
+  background-color: white;
+  position: absolute;
+  left:80%;
+}
+
+.listbox{
+  width: 90%;
+  height: auto;
+  min-height: 500rpx;
+  margin: 40rpx auto 0 auto;
+}
+.listitem{
+  width: 100%;
+  height: 180rpx;
+  background-color: white;
+  margin-bottom: 40rpx;
+  border-radius: 40rpx;
+}
+.top{
+  width: 420rpx;
+  height: 80rpx;
+  float: left;
+  margin-left: 40rpx;
+}
+.name{
+  width: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.phone{
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+  font-size: 28rpx;
+  color: #666666 ;
+}
+.mo{
+  width: 20%;
+  height: 40rpx;
+  line-height: 40rpx;
+  float: left;
+  font-size: 28rpx;
+  text-align: center;
+  color:white;
+  background-color: #c16d78;
+  margin: 20rpx auto;
+  border-radius: 40rpx;
+}
+.but{
+  width: 80%-40rpx;
+  height: 100rpx;
+  float: left;
+  margin-left: 40rpx;
+  color: #666666 ;
+  font-size: 30rpx;
+}
+.change{
+  width: 60rpx;
+  height: 60rpx;
+  background-color: white;
+  float: right;
+  margin-top: 60rpx;
+  margin-right: 40rpx;
+}
+.change image{
+  width: 100%;
+  height: 100%;
+}
+.add-address{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+}
+.btn{
+  width: 480rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #c16d78;
+  border-radius: 100rpx;
+  color: white;
+  font-size: 36rpx;
+  margin: 10rpx auto;
+}

@@ -1,0 +1,51 @@
+<view class="address">
+  <view class="title">地址编辑</view>
+  <view class="page-section">
+    <view class="weui-cells__title">姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" bindinput="bindname" placeholder="输入收货人姓名" value="{{inputName}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">省市</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" bindinput="bindcity" placeholder="输入收货省市" value="{{inputCity}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">地址</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="30" bindinput="bindaddress" placeholder="输入详细地址" value="{{inputAddress}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">电话</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="16" bindinput="bindphone" placeholder="输入联系人电话" value="{{inputPhone}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view class="section section_gap">
+    <view class="section__title">是否设为默认地址</view>
+    <view class="body-view">
+        <switch color="#c16d78" checked="{{switchChecked}}" bindchange="switchChange"/>
+    </view>
+  </view>
+
+  <view class="btno" bindtap="addad" wx:if="{{id==''}}">保存新地址</view>
+  <view class="btno" bindtap="upad" wx:if="{{id != ''}}">保存修改地址</view>
+  <navigator url="../address_list/address_list">
+    <view class="btnt">退出编辑</view>
+  </navigator>
+</view>

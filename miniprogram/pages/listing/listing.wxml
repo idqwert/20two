@@ -1,0 +1,39 @@
+<view class="listing">
+  <view class="nav">订单正在生成中...</view>
+  <view class="address">
+    <view class="icono">
+      <image src="../../images/address.png"></image>
+    </view>
+
+    <view class="top">
+      <view class="name">{{name}}</view>
+      <view class="phone">{{phone}}</view>
+      <view class="mo">默认</view>
+    </view>
+    <navigator url="../address_list/address_list">
+    <view class="icont">
+      <image src="../../images/bianji.png"></image>
+    </view>
+  </navigator>
+    
+    <view class="bot">{{address}}</view>
+
+  </view>
+  <view class="shopbox">
+    <view class="item" wx:for="{{shoplist}}" wx:key="index">
+      <view class="pic">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="title">{{item.title}}</view>
+      <view class="iprice">￥ {{item.price}}</view>
+      <view class="count">× {{item.count}}</view>
+    </view>
+  </view>
+  
+  <view class="bnav">
+    <view class="price">总计
+      <span class="color"> ￥ {{price}}</span>
+    </view>
+    <view class="btn" bindtap="addtolist">生成订单</view>
+  </view>
+</view>

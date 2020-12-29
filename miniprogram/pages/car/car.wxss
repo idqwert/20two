@@ -1,0 +1,212 @@
+.car-nav{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+}
+.car-count{
+  width: 240rpx;
+  height: 100rpx;
+  float: right;
+  text-align: center;
+  line-height: 100rpx;
+  margin-right: 80rpx;
+  font-size: 36rpx;
+}
+.car-clear{
+  width: 140rpx;
+  height: 100prx;
+  float: right;
+  text-align: center;
+  line-height: 100rpx;
+  color:#f04908;
+  font-size: 36rpx;
+}
+.user{
+  width: 100%;
+  height: 120rpx;
+  background-color: #f2f2f2;
+}
+.user-pic{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: grey;
+  margin: 10rpx 20rpx;
+  float: left;
+}
+.user-name{
+  color: #c16d78;
+  width: 100rpx;
+  height: 80rpx;
+  font-size: 50rpx;
+  text-align: left;
+  line-height:80rpx;
+  margin: 20rpx 20rpx;
+  float: left;
+}
+.tixin{
+  width: 240rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 20rpx 20rpx;
+  font-size: 38rpx;
+  float: right;
+}
+
+.item-box{
+  width: 100%;
+  margin: 0 auto;
+}
+.itemone{
+  background-color: white;
+  width: 95%;
+  height: 240rpx;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+}
+.itemtwo{
+  background-color: white;
+  width: 90%;
+  height: 240rpx;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+}
+.item-del{
+  width: 60rpx;
+  height: 60rpx;
+
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 90rpx;
+}
+/* .icon-box-ctn{
+  height: 60rpx;
+  width: 60rpx;
+} */
+.item-pic{
+  width: 220rpx;
+  height: 220rpx;
+  margin: 10rpx 10rpx;
+  background-color: grey;
+  float: left;
+}
+.item-pic image{
+  width: 100%;
+  height: 100%;
+}
+.item-msg{
+  width: 360rpx;
+  height: 220rpx;
+  float:left;
+  margin: 10rpx 20rpx;
+}
+.item-name{
+  width: 100%;
+  height: 50%;
+  line-height: 110rpx;
+  font-size: 46rpx;
+  font-weight: bolder;
+}
+.item-num{
+  width: 100%;
+  height: 50%;
+  line-height: 110rpx;
+}
+.item-price{
+  height: 100%;
+  width: 50%;
+  float: left;
+  color: #c16d78;
+  font-size: 40rpx;
+}
+.item-add{
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin-top: 40rpx;
+}
+.reduce{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  border:2rpx solid darkgray;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  line-height: 40rpx;
+  text-align: center;
+  margin-right: 10rpx;
+  font-size: 36rpx;
+}
+.count{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  border:2rpx solid darkgray;
+  line-height: 40rpx;
+  text-align: center;
+  margin-right: 10rpx;
+}
+.add{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  border:2rpx solid #c16d78;
+  border-radius: 50%;
+  background-color: #c16d78;
+  color: white;
+  line-height: 40rpx;
+  text-align: center;
+  margin-right: 10rpx;
+  font-size: 36rpx;
+}
+
+.tian{
+  width: 100%;
+  height: 120rpx;
+  background-color: #f6f6f6;
+}
+
+.bom-nav{
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  padding-left: 20rpx;
+}
+.num{
+  width: 120rpx;
+  height: 120rpx;
+  font-size: 40rpx;
+  color: #c16d78;
+  line-height: 120rpx;
+  text-align: center;
+  float: left;
+ 
+}
+.he{
+  width: 100rpx;
+  height: 120rpx;
+  font-size: 40rpx;
+  font-weight: bolder;
+  line-height: 120rpx;
+  text-align: center;
+  float: left;
+}
+.tolist{
+  width: 240rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  float: right;
+  background-color: #c16d78;
+  color: white;
+}
+.contin{
+  width: 200rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  float: right;
+  background-color: #f07178;
+  color: white;
+}

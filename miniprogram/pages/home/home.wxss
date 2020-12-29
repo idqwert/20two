@@ -1,0 +1,134 @@
+.first{
+  background-color: #f7f7f7;
+}
+.title-pic image{
+  width: 100%;
+  height: 400rpx;
+}
+.userinfo{
+  width: 90%;
+  height: 240rpx;
+  position: absolute;
+  top:280rpx;
+  left:36rpx;
+  border-radius: 40rpx;
+  box-shadow:darkgrey 2rpx 2rpx 8rpx 8rpx;
+}
+.usermsg{
+  position: absolute;
+  width: 100%;
+  height: 80rpx;
+  top:20rpx;
+}
+.userpic{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  background-color: grey;
+  float: left;
+}
+.username{
+  height: 50rpx;
+  width: 150rpx;
+  color: #c16d78;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+}
+
+.yourself{
+  width: 180rpx;
+  height: 50rpx;
+  color:#ef9033;
+  float: right;
+  margin-right: 20rpx;
+  font-size: 36rpx;
+}
+.userf{
+  position: absolute;
+  width: 100%;
+  height: 100rpx;
+  bottom: 20rpx;
+  font-size: 34rpx;
+}
+.integral{
+  width: 33.333%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  float: left;
+}
+.balance{
+  width: 32.5%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  float: left;
+  border-left: 2rpx solid grey;
+  border-right: 2rpx solid grey;
+}
+.coupon{
+  width: 33.333%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  float: left;
+}
+
+.menulist{
+  width: 90%;
+  height: 200rpx;
+  position: relative;
+  margin: 200rpx auto 0 auto;
+  border-radius: 40rpx;
+  box-shadow:darkgrey 2rpx 2rpx 4rpx 4rpx;
+  background-color: white;
+}
+.navpic{
+  width: 33.33%;
+  height: 200rpx;
+  float: left;
+  text-align: center;
+}
+.navpic image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 35rpx;
+
+}
+
+.swiper{
+  width: 90%;
+  height: 300rpx;
+  border-radius: 40rpx;
+  background-color: white;
+  margin:40rpx auto 0 auto;
+  box-shadow:darkgrey 2rpx 2rpx 4rpx 4rpx;
+}
+
+.swiper image{
+  width: 100%;
+  height:100%;
+  border-radius: 40rpx;
+}
+
+.msg{
+  margin: 40rpx auto 0 auto;
+  width: 90%;
+  height: 300rpx;
+}
+.msgtext{
+  color:#c16d78;
+  font-size: 40rpx;
+}
+.msgpic{
+  width: 100%;
+  height: 260rpx;
+  margin-top: 20rpx;
+}
+.msg image{
+  width: 100%;
+  height: 100%;
+  border-radius: 40rpx;
+}

@@ -1,0 +1,78 @@
+.title{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 36rpx;
+}
+.page-section{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  margin-top: 40rpx;
+}
+.weui-cells__title{
+  width: 20%;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+  text-align: center;
+}
+.weui-cells{
+  width: 80%;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+}
+.weui-cell{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.weui-input{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.section{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  margin-top: 40rpx;
+}
+.section__title{
+  width: 45%;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+  text-align: center;
+}
+.body-view{
+  width: 45%;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+  text-align: right;
+}
+
+.btno{
+  width: 80%;
+  height: 100rpx;
+  background-color: #c16d78;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 100rpx;
+  margin: 120rpx auto 0 auto;
+}
+.btnt{
+  width: 80%;
+  height: 100rpx;
+  background-color:white ;
+  color: #c16d78;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 100rpx;
+  margin: 40rpx auto 0 auto;
+}
